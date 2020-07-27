@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import style from './siddur.module.css'
+// import style from './siddur.module.css'
 import { Feeling, Prayer } from 'src/types/types';
 import { getAllPrayers, getAllFeelings } from '../../api/firebase';
 import Loading from '../Loading/Loading';
