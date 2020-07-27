@@ -1,0 +1,14 @@
+.raw-data-wrap {
+  text-align: center;
+}
+
+.raw-data-wrap table {
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.raw-data-wrap th, .raw-data-wrap td {
+  border-width: 1px;
+  border-style: solid;
+  padding: 5px;
+}

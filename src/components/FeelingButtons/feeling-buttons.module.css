@@ -1,0 +1,39 @@
+.feelings-wrap {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feeling {
+  border: 1px solid #bcbcbc !important;
+  background: white;
+  font-family: Poppins;
+  margin: 0 3px;
+  margin-top: 10px;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+.feeling::-moz-focus-inner {
+  border: 0;
+}
+
+.feeling:focus {
+  color: black;
+}
+
+.feeling-selected {
+  background: #d8ffcf;
+}
+
+@media only screen and (max-width: 500px) {
+  .feeling {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 200px;
+  }
+}
