@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
+import { PrayerData } from 'src/types/types';
+import { getPrayerData } from 'src/api/sefaria';
+import Loading from 'src/components/Loading/Loading';
+
 import style from './prayer-display.module.css';
-import { PrayerData } from '../../types/types';
-import { getPrayerData } from '../../api/sefaria';
-import Loading from '../Loading/Loading';
 
 interface PrayerDisplayProps {
   prayerRef: string;

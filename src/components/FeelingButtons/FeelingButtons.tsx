@@ -1,16 +1,9 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import style from './feeling-buttons.module.css'
-import { Feeling } from '../../types/types';
+import { Feeling } from 'src//types/types';
 
-// const feelings: Feeling[] = [
-//   { id: '0', name: 'Happy', emoji: '😀' },
-//   { id: '1', name: 'Sad', emoji: '🙁' },
-//   { id: '3', name: 'Wow', emoji: '🤩' },
-//   { id: '4', name: 'Grateful', emoji: '🙏' },
-//   { id: '5', name: 'Thoughtful', emoji: '🤔' }
-// ]
+import style from './feeling-buttons.module.css'
 
 interface FeelingButtonsProps {
   feelings: Feeling[];
