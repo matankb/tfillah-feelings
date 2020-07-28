@@ -21,7 +21,7 @@ const PrayerDisplay = ({ prayerRef, message, color }: PrayerDisplayProps) => {
   }, [prayerRef]);
 
   return (
-    <div className={style['prayer-wrap']}>
+    <div className={style['prayer']}>
       <div className={style['prayer-header']} style={{ backgroundColor: color }}>
         <div className={style['section-name']}>
           {prayerData?.section}

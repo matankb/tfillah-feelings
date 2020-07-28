@@ -1,0 +1,75 @@
+.siddur-wrap h1 {
+  text-align: center;
+  color: var(--header-color);
+}
+
+.siddur-wrap main {
+  /* display: flex; */
+  position: relative;
+  /* width: 80%; */
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.siddur-controls {
+  position: absolute;
+  left: 0;
+  max-width: 500px;
+  min-width: 188.03px;
+  margin: 0 auto;
+  border: 1px solid #bcbcbc;
+  border-radius: 3px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.siddur-controls label {
+  display: block;
+}
+
+.siddur-controls label input {
+  margin-right: 8px;
+}
+
+.siddur-controls h4 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.siddur-controls .siddur-controls-section:not(:first-child) h4 {
+  margin-top: 10px;
+}
+
+@media (max-width: 1300px) {
+  .siddur-wrap main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  .siddur-controls {
+    position: static;
+    margin: 0;
+    margin-right: 10px;
+
+  }
+}
+
+/* Mobile View */
+@media (max-width: 890px) {
+  .siddur-wrap main {
+    display: block; 
+  }
+  .siddur-controls {
+    margin-bottom: 5px;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .siddur-controls .siddur-controls-section {
+    margin-right: 10px;
+  }
+  .siddur-controls .siddur-controls-section:not(:first-child) h4 {
+    margin-top: 0;
+  }
+}
