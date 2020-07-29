@@ -20,6 +20,19 @@
   justify-content: space-between;
 }
 
+.prayer-footer {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #bcbcbc;
+  background: #f6f6f6;
+}
+
+.prayer-footer .sefaria-link {
+  text-decoration: none;
+  color: blue;
+}
+
 .hebrew {
   font-family: 'Rubik';
   direction: rtl;

@@ -10,9 +10,10 @@ interface PrayerDisplayProps {
   prayerRef: string;
   color: string;
   message: string;
+  footerMessage?: React.ReactNode;
 }
 
-const PrayerDisplay = ({ prayerRef, message, color }: PrayerDisplayProps) => {
+const PrayerDisplay = ({ prayerRef, message, color, footerMessage }: PrayerDisplayProps) => {
 
   const [prayerData, setPrayerData] = useState<PrayerData>();
 
@@ -41,6 +42,19 @@ const PrayerDisplay = ({ prayerRef, message, color }: PrayerDisplayProps) => {
           <div className={style.english}>
             {prayerData?.english}
           </div>
+        </div>
+      </div>
+      <div className={style['prayer-footer']}>
+        <a
+          className={style['sefaria-link']}
+          href={`https://www.sefaria.org/${prayerRef}`} 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          View on Sefaria
+        </a>
+        <div>
+          {footerMessage}
         </div>
       </div>
     </div>
