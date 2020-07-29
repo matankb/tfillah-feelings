@@ -24,7 +24,7 @@ const SectionButton = (props: SectionButtonProps) => (
 const Home = () => {
   return (
     <div className={style['home-wrap']}>
-      <h1>T'fillah Feelings App</h1>
+      <h1>Kavanapp</h1>
       <div className={style['section-buttons']}>
         <SectionButton name="Check In" icon="fas fa-tasks" color="cornflowerblue" linkTo="/check-in" />
         <SectionButton name="Shacharit" icon="fas fa-book-open" color="darkorange" linkTo="/siddur" />

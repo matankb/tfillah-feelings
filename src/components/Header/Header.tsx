@@ -9,7 +9,7 @@ const Header = () => (
     <Link to="/" className={style['home-link']}>
       <i className={classNames('far fa-frown', style['logo-frown'])} />
       <i className={classNames('fas fa-smile', style['logo-smile'])} />
-      T'fillah Feelings
+      Kavanapp
     </Link>
   </header>
 )
