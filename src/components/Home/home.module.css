@@ -26,6 +26,9 @@
   cursor: pointer;
   box-shadow: 2px 2px 2px 1px lightgrey;
   background: white;
+  color: black;
+  display: block;
+  text-decoration: none !important;
 }
 
 .section-button:hover {

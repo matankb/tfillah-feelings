@@ -11,12 +11,10 @@ interface SectionButtonProps {
 }
 
 const SectionButton = (props: SectionButtonProps) => (
-  <Link to={props.linkTo} className={style['section-button-link']}>
-    <div className={style['section-button']}>
-      <i className={props.icon} style={{ color: props.color }} />
-      <div className={style['section-title']}>
-        {props.name}
-      </div>
+  <Link to={props.linkTo} className={style['section-button']}>
+    <i className={props.icon} style={{ color: props.color }} />
+    <div className={style['section-title']}>
+      {props.name}
     </div>
   </Link>
 )
