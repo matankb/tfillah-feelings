@@ -13,3 +13,20 @@
   font-style: italic;
   text-align: center;
 }
+
+.prayer-footer-message {
+  color: gray;
+}
+
+.prayer-footer-message .also-tagged {
+  display: inline-block;
+  color: gray;
+}
+
+.prayer-footer-message .also-tagged .also-tagged-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
