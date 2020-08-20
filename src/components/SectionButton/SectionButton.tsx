@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import style from './section-button.module.css'
-console.log(style);
 
 interface SectionButtonProps {
   name: string;

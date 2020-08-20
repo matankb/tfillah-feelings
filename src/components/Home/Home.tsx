@@ -11,7 +11,6 @@ const Home = () => {
       <div className={style['section-buttons']}>
         <SectionButton name="Check In" icon="fas fa-tasks" color="cornflowerblue" linkTo="/check-in" />
         <SectionButton name="Shacharit" icon="fas fa-book-open" color="darkorange" linkTo="/siddur" />
-        {/* <SectionButton name="My Feelings" icon="fa fa-smile" color="#4ed88b" linkTo="/my-feelings" /> */}
         <SectionButton name="View Data" icon="fas fa-database" color="#4ed88b" linkTo="/data" />
       </div>
     </div>
