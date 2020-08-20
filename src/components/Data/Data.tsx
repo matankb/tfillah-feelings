@@ -5,13 +5,8 @@ import { getAllPrayers, getAllFeelings } from '../../api/firebase';
 
 import style from './data.module.css'
 import Loading from '../Loading/Loading';
-
-
-function parsePrayerName(ref: string) {
-  return decodeURIComponent(ref)
-    .split('Siddur Ashkenaz, Weekday, Shacharit, ')[1]
-    .trim()
-}
+import PrayerTable from './PrayerTable';
+import FeelingTable from './FeelingTable';
 
 const Data = () => {
 
@@ -30,31 +25,15 @@ const Data = () => {
   return (
     <div className={style['raw-data-wrap']}>
       <h1>Raw Data</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Full Name</th>
-            <th>Feelings</th>
-          </tr>
-        </thead>
-        <tbody>
-          {
-            prayers.map(prayer => (
-              <tr key={prayer.id}>
-                <td> {parsePrayerName(prayer.ref)} </td>
-                <td>
-                  {
-                    prayer.responses.map((response, i) => {
-                      const feeling = feelings.find(f => f.id === response.feeling);
-                      return <li key={i}>{feeling?.name} (Age {response.age})</li>
-                    })
-                  }
-                </td>
-              </tr>
-            ))
-          }
-        </tbody>
-      </table>
+      
+      <div className={style['explanation']}>
+        Note: This raw data will not be available in the final app.
+      </div>
+
+      <PrayerTable prayers={prayers} feelings={feelings} />
+      
+      <FeelingTable feelings={feelings} />
+
     </div>
   )
 
