@@ -7,6 +7,12 @@
   color: var(--header-color);
 }
 
+.feelings-buttons-wrap {
+  width: 60%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .no-prayers-found {
   color: #838383;
   font-size: 20px;

@@ -2,9 +2,12 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .feeling {
+  flex-grow: 1;
   border: 1px solid #bcbcbc !important;
   background: white;
   font-family: Poppins;

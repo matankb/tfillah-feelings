@@ -99,7 +99,7 @@ class CheckIn extends React.Component<{}, CheckInState> {
 
         {
           (stage === CheckInStage.CURRENT_FEELINGS || stage === CheckInStage.WANT_FEELINGS) &&
-          <div>
+          <div className={style['feelings-buttons-wrap']}>
             <FeelingButtons
               feelings={feelings}
               selectedFeelings={stage === CheckInStage.CURRENT_FEELINGS ? selectedCurrentFeelings : selectedWantFeelings}
