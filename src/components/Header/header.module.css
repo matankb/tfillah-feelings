@@ -5,14 +5,12 @@
 }
 
 .home-link {
-  /* color: black; */
-  /* color: rebeccapurple; */
   color: white;
   text-decoration: none;
 }
 
 .home-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
