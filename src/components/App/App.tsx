@@ -5,7 +5,6 @@ import Header from 'src/components/Header/Header';
 import Home from 'src/components/Home/Home';
 import CheckIn from 'src/components/CheckIn/CheckIn';
 import Siddur from 'src/components/Siddur/Siddur';
-import Rating from '../Rating/Rating';
 import Data from 'src/components/Data/Data';
 
 import './app.module.css';
@@ -17,7 +16,6 @@ const App = () => (
     <Switch>
       <Route path="/check-in"><CheckIn /></Route>
       <Route path="/siddur"><Siddur /></Route>
-      <Route path="/rate"><Rating /></Route>
       <Route path="/data"><Data /></Route>
       <Route path="/"><Home /></Route>
     </Switch>
