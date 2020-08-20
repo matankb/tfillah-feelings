@@ -26,7 +26,7 @@ const CheckInPrayerFooter = (props: PrayerFooterProps) => {
     <div className={style['prayer-footer-message']}>
       Also tagged
       {
-        otherFeelings.map(({ feeling, count }) => (
+        otherFeelings.slice(0, 3).map(({ feeling, count }) => (
           <div className={style['also-tagged']} key={feeling.id}>
             <div
               className={style['also-tagged-circle']}
@@ -35,6 +35,18 @@ const CheckInPrayerFooter = (props: PrayerFooterProps) => {
             {feeling.name} ({ count})
           </div>
         ))
+      }
+      {
+        otherFeelings.length > 3 &&
+        <i
+          className="fa fa-ellipsis-h"
+          title={
+            otherFeelings
+              .map(({ feeling, count }) => `${feeling.name} (${count})`)
+              .slice(3)
+              .join(', ')
+          }
+        />
       }
     </div>
   );
