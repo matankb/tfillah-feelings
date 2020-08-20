@@ -13,7 +13,7 @@
 
 .siddur-controls {
   position: absolute;
-  left: 0;
+  left: -35px;
   max-width: 500px;
   min-width: 188.03px;
   margin: 0 auto;
@@ -40,7 +40,8 @@
   margin-top: 10px;
 }
 
-@media (max-width: 1300px) {
+/* center entire page */
+@media (max-width: 1375px) {
   .siddur-wrap main {
     display: flex;
     justify-content: center;
@@ -48,6 +49,7 @@
     padding: 0 20px;
   }
   .siddur-controls {
+    min-width: 220.141px; /* width at which feelings will wrap */
     position: static;
     margin: 0;
     margin-right: 10px;
