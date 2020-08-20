@@ -36,3 +36,7 @@
   display: inline-block;
   margin: 0 5px;
 }
+
+.prayer-footer-message .also-tagged:last-of-type {
+  margin-right: 5px;
+}
