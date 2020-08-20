@@ -9,7 +9,7 @@ import style from './prayer-display.module.css';
 interface PrayerDisplayProps {
   prayerRef: string;
   color: string;
-  message: string;
+  message?: React.ReactNode;
   footerMessage?: React.ReactNode;
 }
 
@@ -36,12 +36,14 @@ const PrayerDisplay = ({ prayerRef, message, color, footerMessage }: PrayerDispl
           {prayerData?.name || <Loading />}
         </div>
         <div className={style['prayer-text']}>
-          <div className={style.hebrew}>
-            {prayerData?.hebrew}
-          </div>
-          <div className={style.english}>
-            {prayerData?.english}
-          </div>
+          <div 
+            className={style.hebrew} 
+            dangerouslySetInnerHTML={{ __html: prayerData?.hebrew || '' }}  
+          />
+          <div 
+            className={style.english}
+            dangerouslySetInnerHTML={{ __html: prayerData?.english || '' }}
+          />
         </div>
       </div>
       <div className={style['prayer-footer']}>
