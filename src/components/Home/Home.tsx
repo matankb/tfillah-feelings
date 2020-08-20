@@ -1,23 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import SectionButton from '../SectionButton/SectionButton';
 
 import style from './home.module.css'
-
-interface SectionButtonProps {
-  name: string;
-  icon: string;
-  color: string;
-  linkTo: string;
-}
-
-const SectionButton = (props: SectionButtonProps) => (
-  <Link to={props.linkTo} className={style['section-button']}>
-    <i className={props.icon} style={{ color: props.color }} />
-    <div className={style['section-title']}>
-      {props.name}
-    </div>
-  </Link>
-)
 
 const Home = () => {
   return (
