@@ -31,13 +31,24 @@ function getPrayerFeelingMap(prayer: Prayer, selectedAgeRanges: AgeRange[]) { //
 // TODO: limit to certain number
 function getPrayerMessage(prayer: Prayer, feelings: Feeling[], selectedAgeRanges: AgeRange[]) {
   const feelingsMap = getPrayerFeelingMap(prayer, selectedAgeRanges);
-  const message = [...feelingsMap]
+  const messages = [...feelingsMap]
+    .sort((a, b) => b[1] - a[1])
     .map(([feelingId, count]) => {
       const feeling = feelings.find(f => f.id === feelingId);
-      return `${feeling?.name} (${count})`;
+      return `${feeling?.name} (${count}) `;
     })
-    .join(', ');
-  return message;
+  return (
+    <span>
+      { messages.slice(0, 3) }
+      {
+        messages.length > 3 &&
+        <i
+          className="fa fa-ellipsis-h"
+          title={messages.slice(3).join(', ')}
+        />
+      }
+    </span>
+  );
 }
 
 function getPrayerColor(prayer: Prayer, selectedFeelings: Feeling[], selectedAgeRanges: AgeRange[]) {
