@@ -20,16 +20,20 @@ const SiddurControls = (props: SiddurControlsProps) => {
       <div className={style['siddur-controls-section']}>
         <h4>Highlight by Feeling</h4>
         {
-          props.feelings.map(feeling => (
-            <label key={feeling.id}>
-              <input
-                type="checkbox"
-                checked={props.selectedFeelings.includes(feeling)}
-                onChange={() => props.handleFeelingToggle(feeling)}
-              />
-              {feeling.name}
-            </label>
-          ))
+          props.feelings.map(feeling => {
+            const selected = props.selectedFeelings.includes(feeling);
+            return (
+              <label key={feeling.id}>
+                <input
+                  type="checkbox"
+                  checked={selected}
+                  onChange={() => props.handleFeelingToggle(feeling)}
+                />
+                {feeling.name}
+                <div style={{ width: 10, height: 10, background: selected ? feeling.color : '', borderRadius: '50%', display:  'inline-block', marginLeft: 5 }} />
+              </label>
+            )
+          })
         }
       </div>
       <div className={style['siddur-controls-section']}>
