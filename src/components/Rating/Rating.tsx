@@ -23,7 +23,7 @@ const Rating = () => {
 
   return (
     <div className={style['rating-wrap']}>
-      <h1>Rating</h1>
+      <h1>Rate Prayers</h1>
 
       <div className={style['rating-home']}>
         <div>
