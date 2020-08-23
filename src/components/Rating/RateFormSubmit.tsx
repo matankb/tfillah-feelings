@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import style from './rating.module.css'
 import { FormResponses } from './RateForm';
 import { getAllPrayers, setPrayer, addPrayer } from 'src/api/firebase';
-import { firestore } from 'firebase';
 
 interface RateFormSubmitProps {
   formResponses: FormResponses;
