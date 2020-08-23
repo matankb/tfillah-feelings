@@ -26,7 +26,7 @@ const Templates = (props: TemplatesProps) => {
 
   const visibleTemplates = showMore ?
     filterPrimaryTemplates(props.templates) :
-    filterPrimaryTemplates(props.templates.slice(0, 2));
+    filterPrimaryTemplates(props.templates).slice(0, 2);
 
   return (
     <div className={style['templates']}>
