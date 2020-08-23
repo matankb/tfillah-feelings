@@ -28,7 +28,6 @@ function getPrayerFeelingMap(prayer: Prayer, selectedAgeRanges: AgeRange[]) { //
 }
 
 // Message format: Happy (3), Sad (2), etc.
-// TODO: limit to certain number
 function getPrayerMessage(prayer: Prayer, feelings: Feeling[], selectedAgeRanges: AgeRange[]) {
   const feelingsMap = getPrayerFeelingMap(prayer, selectedAgeRanges);
   const messages = [...feelingsMap]

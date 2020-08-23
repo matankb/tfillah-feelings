@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import style from './rating.module.css'
+import { Feeling, Template, SourceSheet } from 'src/types/types';
 import { getTemplate, getAllFeelings } from 'src/api/firebase';
+import { toggleArrayItem } from 'src/utils/array';
+import { parseQueryString } from 'src/utils/url';
+import { getSourceSheet } from 'src/api/sefaria';
+
 import Loading from '../Loading/Loading';
 import PrayerDisplay from '../PrayerDisplay/PrayerDisplay';
 import PrayerNavigation from '../PrayerNavigation/PrayerNavigation';
 import FeelingButtons from '../FeelingButtons/FeelingButtons';
-import { Feeling } from 'src/types/types';
-import { getSourceSheet } from 'src/api/sefaria';
-import { parseQueryString } from 'src/utils/url';
+
 import RateFormSubmit from './RateFormSubmit';
 import RateFormSidebar from './RateFormSidebar';
+
+import style from './rating.module.css'
 
 export interface FormResponses {
   [ref: string]: Feeling[];
@@ -25,6 +29,8 @@ const RateForm = () => {
   const [feelings, setFeelings] = useState<Feeling[]>();
 
   const [refs, setRefs] = useState<string[]>(); // array of refs
+  const [template, setTemplate] = useState<Template>();
+  const [sheet, setSheet] = useState<SourceSheet>();
   const [current, setCurrent] = useState(0); // current index
   const [responses, setResponses] = useState<FormResponses>({});
 
@@ -35,10 +41,12 @@ const RateForm = () => {
   useEffect(() => {
     if (templateId) {
       getTemplate(templateId).then(template => {
+        setTemplate(template);
         setRefs(template.refs);
       })
     } else if (sheetId) {
       getSourceSheet(sheetId).then(sheet => {
+        setSheet(sheet);
         setRefs(sheet.includedRefs);
       })
     }
@@ -55,12 +63,7 @@ const RateForm = () => {
 
   const handleFeelingToggle = (feeling: Feeling) => {
     const selectedFeelings = getSelectedFeelings();
-    const newSelectedFeelings = [...selectedFeelings];
-    if (selectedFeelings.includes(feeling)) {
-      newSelectedFeelings.splice(newSelectedFeelings.indexOf(feeling), 1);
-    } else {
-      newSelectedFeelings.push(feeling);
-    }
+    const newSelectedFeelings = toggleArrayItem(selectedFeelings, feeling);
     setResponses({
       ...responses,
       [refs[current]]: newSelectedFeelings
@@ -69,6 +72,7 @@ const RateForm = () => {
 
   const showSubmit = current === refs.length;
   const selectedFeelings = getSelectedFeelings();
+  const name = template ? template.name : sheet?.title || 'Prayers';
 
   return (
     <div className={style['rate-form']}>
@@ -78,6 +82,7 @@ const RateForm = () => {
           currentIndex={current}
           handleRefClick={setCurrent}
           refs={refs}
+          name={name}
         />
       }
 

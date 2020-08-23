@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import style from './rating.module.css'
 
 interface RateFormSidebarProps {
+  name: string;
   refs: string[];
   currentIndex: number;
   handleRefClick: (index: number) => void;
@@ -15,7 +16,7 @@ const RateFormSidebar = (props: RateFormSidebarProps) => {
 
   return (
     <div className={style['rate-form-sidebar']}>
-      <div className={style['sidebar-title']}>Prayers</div>
+      <div className={style['sidebar-title']}>{props.name}</div>
       {
         refs.map((ref, i) => {
           const current = i === currentIndex;

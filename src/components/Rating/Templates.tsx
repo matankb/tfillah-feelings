@@ -11,7 +11,7 @@ interface TemplatesProps {
 
 const primaryTemplates = {
   shacharit: 'SMCSrvsJ6EbTyP5kF0Bu',
-  recommended: '192308u498eidj',
+  recommended: '1Wv77LlYlJbvYnlcdcHi',
 }
 
 function filterPrimaryTemplates(allTemplates: Template[]) {

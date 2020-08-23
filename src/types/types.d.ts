@@ -32,3 +32,9 @@ export interface Template {
   name: string;
   refs: string[];
 }
+
+// Source sheet data from sefaria
+export interface SourceSheet {
+  title: string;
+  includedRefs: string[];
+}

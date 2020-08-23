@@ -1,4 +1,4 @@
-import { PrayerData } from "../types/types";
+import { PrayerData, SourceSheet } from "../types/types";
 
 // TODO: is parse title needed?
 function parseTitle(title: string) {
@@ -12,6 +12,8 @@ function parseSection(ref: string) {
 
 export async function getPrayerData(ref: string): Promise<PrayerData> {
   const data = await fetch(`https://www.sefaria.org/api/texts/${ref}`).then(r => r.json());
+  console.log(data, ref);
+  
   return {
     english: data.text || '',
     hebrew: data.he || '',
@@ -23,6 +25,8 @@ export async function getPrayerData(ref: string): Promise<PrayerData> {
   }
 }
 
-export function getSourceSheet(id: string) {
-  return fetch(`https://www.sefaria.org/api/sheets/${id}`).then(r => r.json());
+export async function getSourceSheet(id: string) {
+  const response = await fetch(`https://www.sefaria.org/api/sheets/${id}`);
+  const data = await response.json();
+  return data as SourceSheet;
 }
