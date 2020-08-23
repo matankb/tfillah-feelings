@@ -26,3 +26,9 @@ export interface Feeling {
   emoji: string;
   color: string;
 }
+
+export interface Template {
+  id: string;
+  name: string;
+  refs: string[];
+}

@@ -1,5 +1,4 @@
 .feelings-wrap {
-  width: 80%;
   margin: 0 auto;
   text-align: center;
   display: flex;
@@ -8,7 +7,7 @@
 
 .feeling {
   flex-grow: 1;
-  border: 1px solid #bcbcbc !important;
+  border: 1px solid var(--border-gray) !important;
   background: white;
   font-family: Poppins;
   margin: 0 3px;

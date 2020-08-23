@@ -22,3 +22,7 @@ export async function getPrayerData(ref: string): Promise<PrayerData> {
     prevRef: data.prev,
   }
 }
+
+export function getSourceSheet(id: string) {
+  return fetch(`https://www.sefaria.org/api/sheets/${id}`).then(r => r.json());
+}

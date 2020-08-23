@@ -18,6 +18,7 @@ const PrayerDisplay = ({ prayerRef, message, color, footerMessage }: PrayerDispl
   const [prayerData, setPrayerData] = useState<PrayerData>();
 
   useEffect(() => {
+    setPrayerData(undefined);
     getPrayerData(prayerRef).then(setPrayerData);
   }, [prayerRef]);
 

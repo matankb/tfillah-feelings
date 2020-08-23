@@ -1,6 +1,6 @@
 .prayer {
   max-width: 900px;
-  border: 1px solid #bcbcbc;
+  border: 1px solid var(--border-gray);
   border-top-width: 0;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -13,7 +13,7 @@
   padding: 5px 10px;
   margin: 0;
   text-align: center;
-  background: #7bc1ff;
+  background: color(--link-color);
   color: white;
   font-size: 16px;
   display: flex;
@@ -24,7 +24,7 @@
   padding: 5px 10px;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #bcbcbc;
+  border-top: 1px solid var(--border-gray);
   background: #f6f6f6;
 }
 

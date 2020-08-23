@@ -17,7 +17,7 @@
 }
 
 .section-button:hover {
-  background: rgb(235, 235, 235);
+  background: var(--hover-gray);
 }
 
 .section-button:active {

@@ -17,7 +17,7 @@
   max-width: 500px;
   min-width: 188.03px;
   margin: 0 auto;
-  border: 1px solid #bcbcbc;
+  border: 1px solid var(--border-gray);
   border-radius: 3px;
   padding: 10px 15px;
   box-sizing: border-box;
