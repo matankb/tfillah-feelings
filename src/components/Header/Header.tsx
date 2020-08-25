@@ -10,11 +10,11 @@ import style from './header.module.css'
 const Header = () => (
   <header className={style['header']}>
     <Link to="/" className={style['home-link']}>
-      Kavanapp
       {/* <i className={classNames('far fa-frown', style['logo-frown'])} />
       <i className={classNames('fas fa-smile', style['logo-smile'])} /> */}
       {/* <Logo className={style['logo']} color="white" /> */}
       <img src={logo} className={style['logo']} alt="" />
+      T'Feeling
     </Link>
   </header>
 )
