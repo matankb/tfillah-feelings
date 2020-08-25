@@ -14,22 +14,9 @@
   align-items: center;
 }
 
-.logo-frown, .logo-smile {
-  font-size: 25px;
-}
-
-.logo-frown {
-  position: relative;
-  left: 10px;
-  z-index: 0;
-}
-
-.logo-smile {
-  z-index: 3;
-  position: relative;
-  left: 2px;
-  color: white;
-  background: var(--primary-color);
-  border-radius: 50%;
+.logo {
+  width: 25px;
   margin-right: 7px;
+  position: relative;
+  top: 1px;
 }
