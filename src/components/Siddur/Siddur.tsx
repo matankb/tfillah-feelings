@@ -9,6 +9,7 @@ import PrayerDisplay from '../PrayerDisplay/PrayerDisplay';
 import style from './siddur.module.css'
 import SiddurControls from './SiddurControls';
 import { toggleArrayItem } from 'src/utils/array';
+import { getSefariaRefIndex } from 'src/api/sefaria';
 
 // returns true if age is in at least one age range
 function isInAgeRanges(age: number, ageRanges: AgeRange[]) {
@@ -67,6 +68,14 @@ function getPrayerColor(prayer: Prayer, selectedFeelings: Feeling[], selectedAge
   return topSelectedFeeling?.color || DEFAULT_COLOR;
 }
 
+function orderPrayers(prayers: Prayer[], refIndex: string[]) {
+  return prayers.sort((a, b) => {
+    const aIndex = refIndex.indexOf(a.ref);
+    const bIndex = refIndex.indexOf(b.ref);
+    return aIndex - bIndex;
+  });
+}
+
 export interface AgeRange {
   min: number;
   max: number;
@@ -92,6 +101,7 @@ const Siddur = () => {
 
   const [feelings, setFeelings] = useState<Feeling[]>();
   const [prayers, setPrayers] = useState<Prayer[]>();
+  const [refIndex, setRefIndex] = useState<string[]>();
 
   const [selectedFeelings, setSelectedFeelings] = useState<Feeling[]>([]);
   const [selectedAgeRanges, setSelectedAgeRanges] = useState<AgeRange[]>(ageRanges);
@@ -99,6 +109,7 @@ const Siddur = () => {
   useEffect(() => {
     getAllPrayers().then(setPrayers);
     getAllFeelings().then(setFeelings);
+    getSefariaRefIndex('Siddur Ashkenaz, Weekday, Shacharit').then(setRefIndex);
   }, []);
 
   const handleFeelingToggle = (feeling: Feeling) => {
@@ -111,9 +122,12 @@ const Siddur = () => {
     setSelectedAgeRanges(newAgeRanges);
   }
 
-  if (!prayers || !feelings) {
+  if (!prayers || !feelings || !refIndex) {
     return <Loading />
   }
+  console.log(refIndex);
+  
+  const orderedPrayers = orderPrayers(prayers, refIndex);
 
   return (
     <div className={style['siddur-wrap']}>
@@ -129,7 +143,7 @@ const Siddur = () => {
         />
         <div>
           {
-            prayers.map(prayer => {
+            orderedPrayers.map(prayer => {
               const message = getPrayerMessage(prayer, feelings, selectedAgeRanges);
               const color = getPrayerColor(prayer, selectedFeelings, selectedAgeRanges);
               return <PrayerDisplay
