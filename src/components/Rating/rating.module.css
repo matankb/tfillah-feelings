@@ -22,9 +22,13 @@
 }
 
 .source-sheet {
-  border-left: 3px solid lightgray;
-  padding-left: 35px;
-  margin-left: 30px;
+  /* Vars used to transform border, padding, and margin to top in mobile */
+  --border-width: 3px;
+  --padding: 35px;
+  --margin: 30px;
+  border-left: var(--border-width) solid var(--border-gray);;
+  padding-left: var(--padding);
+  margin-left: var(--margin);
 }
 
 .source-sheet-input-wrap {
@@ -37,7 +41,6 @@
   box-sizing: border-box;
   border-radius: 3px;
   border: 1px solid gray;
-  /* font-size: 17px; */
   margin-top: 10px;
 }
 
@@ -48,7 +51,6 @@
   background: white;
   border: 1px solid gray;
   border-radius: 3px;
-  /* background: #0384fc; */
   background: var(--primary-color);
   color: white;
   opacity: 0.5;
@@ -88,12 +90,11 @@
 .template i {
   color: #858585;
   margin-right: 10px;
-  /* display: none; */
 }
 
 .templates-list .template-list-show-more {
   float: right;
-  color: #0384fc;
+  color: var(--link-color);
   margin-right: 10px;
   margin-top: 7px;
   text-decoration: none;
@@ -101,6 +102,22 @@
   background: none;
   font-size: 16px;
   cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .rating-home {
+    flex-direction: column;
+    align-items: center;
+  }
+  .source-sheet {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+    border-top: var(--border-width) solid var(--border-gray);
+    padding-top: var(--padding);
+    margin-top: var(--margin);
+    margin-bottom: 10px;
+  }
 }
 
 /* FORM */
@@ -111,6 +128,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding: 0 10px;
 }
 
 .rate-form .rate-form-controls {
@@ -120,24 +138,32 @@
 .rate-form .finish-button {
   cursor: pointer;
   display: inline-block;
-  /* margin: 0 auto; */
   margin-top: 10px;
   border: 1px solid var(--border-gray);
   bottom: 40px;
-  /* color: var(--link-color); */
-  color: #0070c0;
+  color: var(--link-color);
   padding: 2px 55px;
   border-radius: 3px;
+}
+
+@media (max-width: 850px) {
+  .rate-form {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .rate-form-sidebar {
+    flex-grow: 1;
+  }
 }
 
 /* SIDEBAR */
 
 .rate-form-sidebar {
   vertical-align: top;
-  /* display: inline-block; */
   border-radius: 3px;
   margin-right: 10px;
   min-width: 340px;
+  margin-bottom: 10px;
 }
 
 .rate-form-sidebar .sidebar-title {
@@ -174,7 +200,6 @@
 /* RATE FORM SUBMIT */
 
 .form-submit {
-  /* width: 900px; */
   max-width: 900px;
   margin: 0 auto;
   text-align: center;

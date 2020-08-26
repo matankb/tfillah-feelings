@@ -1,8 +1,4 @@
-.home-wrap {
-  /* text-align: center; */
-}
-
-.home-wrap h1 {
+.app-title {
   text-align: center;
   font-size: 46px;
   margin-bottom: 0;
@@ -12,6 +8,6 @@
 .section-buttons {
   display: flex;
   justify-content: center;
-  /* background: rgb(246, 246, 246); */
+  flex-wrap: wrap;
   padding: 30px;
 }
