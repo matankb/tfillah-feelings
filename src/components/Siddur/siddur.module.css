@@ -4,9 +4,7 @@
 }
 
 .siddur-wrap main {
-  /* display: flex; */
   position: relative;
-  /* width: 80%; */
   margin: 0 auto;
   max-width: 1300px;
 }

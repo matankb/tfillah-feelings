@@ -1,13 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Header from 'src/components/Header/Header';
-import Home from 'src/components/Home/Home';
-import CheckIn from 'src/components/CheckIn/CheckIn';
-import Siddur from 'src/components/Siddur/Siddur';
+import Header from '../Header/Header';
+import Home from '../Home/Home';
+import CheckIn from '../CheckIn/CheckIn';
+import Siddur from '../Siddur/Siddur';
 import Rating from '../Rating/Rating';
 import RateForm from '../Rating/RateForm';
-import Data from 'src/components/Data/Data';
+import Data from '../Data/Data';
 
 import './app.module.css';
 

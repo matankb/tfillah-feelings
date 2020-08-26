@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import { Feeling } from 'src//types/types';
+import { Feeling } from 'src/types/types';
 
 import style from './feeling-buttons.module.css'
 
@@ -17,7 +17,7 @@ const FeelingButtons = (props: FeelingButtonsProps) => {
     <button
       className={classNames(style.feeling, props.selectedFeelings.includes(feeling) && style['feeling-selected'])}
       key={feeling.id}
-      onClick={() =>  props.handleFeelingToggle(feeling)}
+      onClick={() => props.handleFeelingToggle(feeling)}
     >
       <span className={style.emoji} role="img">{feeling.emoji}</span> {feeling.name}
     </button>

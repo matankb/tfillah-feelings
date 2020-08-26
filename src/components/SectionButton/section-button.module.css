@@ -6,7 +6,6 @@
   height: 216px;
   width: 182px;
   cursor: pointer;
-  /* box-shadow: 2px 2px 2px 1px lightgrey; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -18,10 +17,6 @@
 
 .section-button:hover {
   background: var(--hover-gray);
-}
-
-.section-button:active {
-  /* box-shadow: 4px 4px 2px 1px lightgray; */
 }
 
 .section-button i {

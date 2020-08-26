@@ -39,7 +39,7 @@ function getPrayerMessage(prayer: Prayer, feelings: Feeling[], selectedAgeRanges
     })
   return (
     <span>
-      { messages.slice(0, 3) }
+      {messages.slice(0, 3)}
       {
         messages.length > 3 &&
         <i
@@ -126,7 +126,7 @@ const Siddur = () => {
     return <Loading />
   }
   console.log(refIndex);
-  
+
   const orderedPrayers = orderPrayers(prayers, refIndex);
 
   return (

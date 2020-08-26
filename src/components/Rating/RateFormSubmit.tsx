@@ -67,7 +67,6 @@ const RateFormSubmit = (props: RateFormSubmitProps) => {
           onChange={e => setAge(parseInt(e.target.value))} 
           min={0}
         />
-        {/* TODO: handle no age? Or require age? */}
         <button onClick={() => submitResponses(formResponses, age || -1)}>Submit</button>
       </div>
 

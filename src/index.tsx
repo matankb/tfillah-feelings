@@ -5,7 +5,6 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import { BrowserRouter } from 'react-router-dom';
 
-import './index.css';
 import App from './components/App/App';
 
 // Initialize Firebase

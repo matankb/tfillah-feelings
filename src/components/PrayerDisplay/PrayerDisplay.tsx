@@ -29,7 +29,7 @@ const PrayerDisplay = ({ prayerRef, message, color, footerMessage }: PrayerDispl
           {prayerData?.section}
         </div>
         <div>
-          { message }
+          {message}
         </div>
       </div>
       <div style={{ padding: 10 }}>
@@ -37,11 +37,11 @@ const PrayerDisplay = ({ prayerRef, message, color, footerMessage }: PrayerDispl
           {prayerData?.name || <Loading />}
         </div>
         <div className={style['prayer-text']}>
-          <div 
-            className={style.hebrew} 
-            dangerouslySetInnerHTML={{ __html: prayerData?.hebrew || '' }}  
+          <div
+            className={style.hebrew}
+            dangerouslySetInnerHTML={{ __html: prayerData?.hebrew || '' }}
           />
-          <div 
+          <div
             className={style.english}
             dangerouslySetInnerHTML={{ __html: prayerData?.english || '' }}
           />
@@ -50,8 +50,8 @@ const PrayerDisplay = ({ prayerRef, message, color, footerMessage }: PrayerDispl
       <div className={style['prayer-footer']}>
         <a
           className={style['sefaria-link']}
-          href={`https://www.sefaria.org/${prayerRef}`} 
-          target="_blank" 
+          href={`https://www.sefaria.org/${prayerRef}`}
+          target="_blank"
           rel="noopener noreferrer"
         >
           View on Sefaria
