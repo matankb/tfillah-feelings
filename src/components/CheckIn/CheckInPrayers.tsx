@@ -12,8 +12,6 @@ function getPrayerMessage(prayer: Prayer, feeling: Feeling) {
   return `${matches} ${matches > 1 ? 'people' : 'person'} said this was ${feeling.name.toLowerCase()}`;
 }
 
-
-
 interface CheckInPrayersProps {
   prayers: Prayer[];
   wantFeelings: Feeling[];

@@ -22,6 +22,10 @@ const CheckInPrayerFooter = (props: PrayerFooterProps) => {
     .filter(({ count }) => count > 0)
     .sort((a, b) => b.count - a.count)
 
+  if (!otherFeelings.length) {
+    return null;
+  }
+
   return (
     <div className={style['prayer-footer-message']}>
       Also tagged
