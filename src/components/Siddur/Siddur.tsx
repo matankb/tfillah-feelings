@@ -16,7 +16,7 @@ function isInAgeRanges(age: number, ageRanges: AgeRange[]) {
   return ageRanges.find(range => age >= range.min && age <= range.max);
 }
 
-// Get may of feeling ID to amount of responses
+// Get map of feeling ID to amount of responses
 function getPrayerFeelingMap(prayer: Prayer, selectedAgeRanges: AgeRange[]) { // TODO: remove this second arg?
   const feelingsMap = new Map<string, number>(); // map of feeling ID to amount of responses
   for (const response of prayer.responses) {
@@ -125,7 +125,6 @@ const Siddur = () => {
   if (!prayers || !feelings || !refIndex) {
     return <Loading />
   }
-  console.log(refIndex);
 
   const orderedPrayers = orderPrayers(prayers, refIndex);
 
