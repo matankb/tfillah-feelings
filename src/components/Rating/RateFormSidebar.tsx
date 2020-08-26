@@ -3,6 +3,12 @@ import classNames from 'classnames';
 
 import style from './rating.module.css'
 
+function stripHtml(html: string) {
+  const div = document.createElement('div');
+  div.innerHTML = html;
+  return div.textContent;
+}
+
 interface RateFormSidebarProps {
   name: string;
   refs: string[];
@@ -16,7 +22,9 @@ const RateFormSidebar = (props: RateFormSidebarProps) => {
 
   return (
     <div className={style['rate-form-sidebar']}>
-      <div className={style['sidebar-title']}>{props.name}</div>
+      <div className={style['sidebar-title']}>
+        {stripHtml(props.name)}
+      </div>
       {
         refs.map((ref, i) => {
           const current = i === currentIndex;
