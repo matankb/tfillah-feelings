@@ -10,6 +10,7 @@ import style from './siddur.module.css'
 import SiddurControls from './SiddurControls';
 import { toggleArrayItem } from 'src/utils/array';
 import { getSefariaRefIndex } from 'src/api/sefaria';
+import MorePopover from '../MorePopover/MorePopover';
 
 // returns true if age is in at least one age range
 function isInAgeRanges(age: number, ageRanges: AgeRange[]) {
@@ -42,9 +43,8 @@ function getPrayerMessage(prayer: Prayer, feelings: Feeling[], selectedAgeRanges
       {messages.slice(0, 3)}
       {
         messages.length > 3 &&
-        <i
-          className="fa fa-ellipsis-h"
-          title={messages.slice(3).join(', ')}
+        <MorePopover
+          content={messages.slice(3).map(message => <div>{ message }</div>)}
         />
       }
     </span>

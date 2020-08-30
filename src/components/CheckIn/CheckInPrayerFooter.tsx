@@ -2,6 +2,7 @@ import React from 'react';
 
 import style from './check-in.module.css'
 import { Prayer, Feeling } from 'src/types/types';
+import MorePopover from '../MorePopover/MorePopover';
 
 interface PrayerFooterProps {
   prayer: Prayer;
@@ -40,18 +41,15 @@ const CheckInPrayerFooter = (props: PrayerFooterProps) => {
           </div>
         ))
       }
-      {
-        otherFeelings.length > 3 &&
-        <i
-          className="fa fa-ellipsis-h"
-          title={
-            otherFeelings
-              .map(({ feeling, count }) => `${feeling.name} (${count})`)
-              .slice(3)
-              .join(', ')
-          }
-        />
-      }
+      <MorePopover
+        content={
+          otherFeelings.slice(3).map(({ feeling, count }) => (
+            <div>
+              {feeling.name} ({ count})
+            </div>
+          ))
+        }
+      />
     </div>
   );
 }

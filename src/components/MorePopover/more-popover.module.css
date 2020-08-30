@@ -1,0 +1,20 @@
+.more-icon {
+  cursor: pointer;
+}
+
+.popover-container {
+  /* box-shadow: 1px 1px 5px 1px gray; */
+  border-radius: 3px;
+  /* background-color: white; */
+}
+
+.popover {
+  border: 2px solid var(--primary-color);
+  padding: 10px 20px;
+  background: white;
+  /* background: var(--primary-color); */
+  /* background: rgb(102, 51, 153, 0.3); */
+  /* color: white; */
+  font-family: Poppins;
+  border-radius: 3px;
+}
