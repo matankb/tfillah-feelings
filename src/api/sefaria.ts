@@ -10,11 +10,15 @@ function parseSection(ref: string) {
   return `${parts[2]} ${parts[3]}`
 }
 
+function formatPrayerText(lines?: string[]) {
+  return lines?.filter(Boolean).join(' ') || '';
+}
+
 export async function getPrayerData(ref: string): Promise<PrayerData> {
   const data = await fetch(`https://www.sefaria.org/api/texts/${ref}`).then(r => r.json());
   return {
-    english: data.text || '',
-    hebrew: data.he || '',
+    english: formatPrayerText(data.text),
+    hebrew: formatPrayerText(data.he),
     name: parseTitle(data.titleVariants[0]),
     section: parseSection(data.ref),
     ref: data.ref,
