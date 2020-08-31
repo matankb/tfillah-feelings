@@ -1,4 +1,4 @@
-import firebase from 'firebase/app';
+// import firebase from 'firebase/app';
 
 import { Prayer, Feeling, Template } from 'src/types/types';
 import data from './data.json';
