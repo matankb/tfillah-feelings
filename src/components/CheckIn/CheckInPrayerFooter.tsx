@@ -41,15 +41,18 @@ const CheckInPrayerFooter = (props: PrayerFooterProps) => {
           </div>
         ))
       }
-      <MorePopover
-        content={
-          otherFeelings.slice(3).map(({ feeling, count }) => (
-            <div>
-              {feeling.name} ({ count})
-            </div>
-          ))
-        }
-      />
+      {
+        otherFeelings.length > 3 &&
+        <MorePopover
+          content={
+            otherFeelings.slice(3).map(({ feeling, count }) => (
+              <div>
+                {feeling.name} ({ count})
+              </div>
+            ))
+          }
+        />
+      }
     </div>
   );
 }
