@@ -1,0 +1,2430 @@
+{
+  "templates": [
+    {
+      "name": "Recommended",
+      "refs": [
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Baruch SheAmar",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Ashrei",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 148",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 150",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Az Yashir",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Yishtabach",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Barchu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Second Blessing before Shema",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Shema",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Patriarchs",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Alenu"
+      ],
+      "id": "1Wv77LlYlJbvYnlcdcHi"
+    },
+    {
+      "id": "BXJeTCnBq8qFfW1BgRUv",
+      "refs": [
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Barchu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, First Blessing before Shema",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Second Blessing before Shema",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Shema",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Blessing after Shema"
+      ],
+      "name": "Blessings of the Shema"
+    },
+    {
+      "name": "Psalms",
+      "refs": [
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Introductory Psalm",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 100",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 146",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 147",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 148",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 149",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 150",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 130"
+      ],
+      "id": "Gqtvgs6LW8PfM5Z4AGld"
+    },
+    {
+      "name": "Shacharit",
+      "refs": [
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Modeh Ani",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Netilat Yadayim",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Asher Yatzar",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Elokai Neshama",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Tzitzit (**Includes Yehi Ratzon)",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Torah Blessings (**All 3 blessings)",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Torah Study",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Tallit",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Tefillin",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Ma Tovu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Adon Olam",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Yigdal",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Morning Blessings",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Akedah",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Sovereignty of Heaven (**L'olam, Shema)",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Korbanot, Kiyor",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Korbanot, Terumat HaDeshen",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Korbanot, Korban HaTamid",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Korbanot, Ketoret",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Korbanot, Order of the Temple Service (Ana Bekoach)",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Korbanot, Laws of Sacrifices",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Korbanot, Baraita of Rabbi Yishmael",
+        "Siddur Ashkenaz, Weekday, Shacharit, Preparatory Prayers, Korbanot, Kaddish DeRabbanan",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Introductory Psalm",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Kaddish Yatom",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Baruch SheAmar",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Hodu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 100",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Y'hi Chavod (18 verses)",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Ashrei",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 146",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 147",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 148",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 149",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 150",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Closing Verses",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Vayivarech David",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Ata Hu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Az Yashir",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Yishtabach",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 130",
+        "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Chatzi Kaddish",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Barchu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, First Blessing before Shema",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Second Blessing before Shema",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Shema",
+        "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Blessing after Shema",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Patriarchs",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Divine Might",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Holiness of God",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Keduasha",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Knowledge",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Repentance",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Forgiveness",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Redemption",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Healing",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Prosperity",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Gathering the Exiles",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Justice",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Against Enemies",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, The Righteous",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Rebuilding Jerusalem",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Kingdom of David",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Response to Prayer",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Temple Service",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Thanksgiving",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Birkat Kohanim",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Peace",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Concluding Passage",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Vidui and 13 Middot",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Avinu Malkenu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Tachanun, V'hu Rachum",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Tachanun, Nefilat Apayim",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Tachanun, God of Israel (for Monday &amp; Thursday)",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Tachanun, Shomer Yisrael",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Tachanun, Chatzi Kaddish",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Removing The Torah From Ark, El Erech Appayim",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Removing The Torah From Ark, Vayhi Binsoa",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Removing The Torah From Ark, Brich Shmei (Zohar 369a)",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Removing The Torah From Ark, Lekha Hashem",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Removing The Torah From Ark, Av Harachamim",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Removing The Torah From Ark, V'tigaleh V'teraeh",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Reading from Sefer, Birkat Hatorah",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Reading from Sefer, Birkat Hagomel",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Reading from Sefer, Chatzi Kaddish",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Reading from Sefer, Raising the Torah",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Reading from Sefer, Prayers for Welfare of the People",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Returning Sefer to Aron, Yehalelu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Returning Sefer to Aron, LeDavid Mizmor",
+        "Siddur Ashkenaz, Weekday, Shacharit, Keriat Hatorah, Returning Sefer to Aron, Uvenuchah Yomar",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Ashrei",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Lamenatze'ach",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Uva Letzion",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Kaddish Shalem",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Alenu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Kaddish Yatom",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Shir shel Yom",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Barchi Nafshi",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, L'David",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, (Israel:) Korbanot, Ein Kelohenu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, (Israel:) Korbanot, Pitum HaKetoret",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, (Israel:) Korbanot, Kaddish Yatom",
+        "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, (Israel:) Korbanot, Barchu",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Service, Six Remembrances",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Service, 10 Commandments",
+        "Siddur Ashkenaz, Weekday, Shacharit, Post Service, Thirteen Principles of Jewish Faith"
+      ],
+      "id": "SMCSrvsJ6EbTyP5kF0Bu"
+    },
+    {
+      "id": "YDz2hFm4c2ouD8yHV0Ez",
+      "name": "Amidah",
+      "refs": [
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Patriarchs",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Divine Might",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Holiness of God",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Keduasha",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Knowledge",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Repentance",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Forgiveness",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Redemption",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Healing",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Prosperity",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Gathering the Exiles",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Justice",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Against Enemies",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, The Righteous",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Rebuilding Jerusalem",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Kingdom of David",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Response to Prayer",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Temple Service",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Thanksgiving",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Birkat Kohanim",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Peace",
+        "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Concluding Passage"
+      ]
+    }
+  ],
+  "prayers": [
+    {
+      "responses": [
+        {
+          "age": 43,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 44
+        },
+        {
+          "age": 36,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 24
+        },
+        {
+          "age": 39,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 47
+        },
+        {
+          "age": 28,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 40
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 36
+        },
+        {
+          "age": 25,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "age": 46,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 41
+        },
+        {
+          "age": 67,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 59,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "age": 41,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 35,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 68
+        },
+        {
+          "age": 32,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "age": 51,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 39,
+          "feeling": "lRxcfy5mp1YvTJX0zhCK"
+        },
+        {
+          "age": 29,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 65
+        },
+        {
+          "age": 54,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "age": 49,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 57
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 48
+        },
+        {
+          "age": 29,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 42
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 57
+        },
+        {
+          "age": 52,
+          "feeling": "lA4sWIqVVWerZSPnD6bd"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 30
+        },
+        {
+          "age": 43,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 43
+        },
+        {
+          "age": 51,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 51,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 50
+        },
+        {
+          "age": 67,
+          "feeling": "dCF6BP9yLKYNWREdU3u6"
+        },
+        {
+          "age": 27,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 32,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 28
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 45
+        },
+        {
+          "age": 48,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "age": 19,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 40
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 65
+        },
+        {
+          "age": 29,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 29
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 37
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 43
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 30
+        },
+        {
+          "age": 55,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 67
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 63
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 35
+        }
+      ],
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Second Blessing before Shema",
+      "id": "051WF5CFjt1g3VYP6mgb"
+    },
+    {
+      "responses": [
+        {
+          "age": 23,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 49,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 68
+        },
+        {
+          "age": 70,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 24,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 38,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 54,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 33,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "age": 53,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 49,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "dxAWE2xDmAVuWW3Mr6rS",
+          "age": 31
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 42
+        },
+        {
+          "age": 27,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 65,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 66,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 23
+        },
+        {
+          "age": 44,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 24,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 21,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 45
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 28
+        },
+        {
+          "age": 16,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 35
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 48
+        },
+        {
+          "age": 54,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 58
+        },
+        {
+          "age": 63,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 61
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 35
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 35
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 60
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 58
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 57
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 54
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 33
+        },
+        {
+          "age": 44,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "feeling": "dxAWE2xDmAVuWW3Mr6rS",
+          "age": 31
+        },
+        {
+          "age": 20,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 61
+        },
+        {
+          "age": 70,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 31
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 45
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 41
+        },
+        {
+          "age": 27,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 56
+        },
+        {
+          "age": 24,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 67
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 29
+        },
+        {
+          "age": 26,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 16,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 59
+        },
+        {
+          "age": 50,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 29
+        },
+        {
+          "age": 42,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 42
+        },
+        {
+          "age": 16,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        }
+      ],
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Baruch SheAmar",
+      "id": "LMSd5vLsJowoSMKxYq19"
+    },
+    {
+      "responses": [
+        {
+          "age": 38,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "age": 47,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 64
+        },
+        {
+          "age": 52,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 28,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 37,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 31,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 43,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 43
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 41
+        },
+        {
+          "age": 39,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 43,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 67
+        },
+        {
+          "age": 60,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 27
+        },
+        {
+          "age": 42,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 18
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 48
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 62
+        },
+        {
+          "age": 49,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "age": 27,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 64
+        },
+        {
+          "age": 56,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 64
+        },
+        {
+          "age": 46,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 44
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 26
+        },
+        {
+          "age": 42,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 64
+        }
+      ],
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Barchu",
+      "id": "VKotzs8KmvdYnF4KBgyx"
+    },
+    {
+      "responses": [
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 38
+        },
+        {
+          "age": 22,
+          "feeling": "dxAWE2xDmAVuWW3Mr6rS"
+        },
+        {
+          "age": 28,
+          "feeling": "lRxcfy5mp1YvTJX0zhCK"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 17
+        },
+        {
+          "age": 25,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 52,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 31
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 58
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 19
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 15
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 18
+        },
+        {
+          "age": 34,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 27,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 56
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 34
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 25
+        },
+        {
+          "age": 61,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 46,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 20,
+          "feeling": "lRxcfy5mp1YvTJX0zhCK"
+        },
+        {
+          "age": 15,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 37
+        },
+        {
+          "age": 26,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 18
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 47
+        },
+        {
+          "age": 66,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 38,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 37
+        },
+        {
+          "age": 26,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 34
+        },
+        {
+          "age": 28,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 36,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 35
+        },
+        {
+          "age": 25,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 15,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 43,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 22
+        },
+        {
+          "age": 44,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 34
+        },
+        {
+          "age": 31,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 21
+        },
+        {
+          "age": 27,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 63
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 43
+        },
+        {
+          "age": 26,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 49
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 19
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 58
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 59
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 22
+        },
+        {
+          "age": 44,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 19
+        },
+        {
+          "age": 26,
+          "feeling": "lA4sWIqVVWerZSPnD6bd"
+        }
+      ],
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Amidah, Patriarchs",
+      "id": "YHX6nPY2EBfGXghkfHqf"
+    },
+    {
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Az Yashir",
+      "responses": [
+        {
+          "feeling": "dCF6BP9yLKYNWREdU3u6",
+          "age": 44
+        },
+        {
+          "age": 60,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 19,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 49,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 20,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 67,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 68
+        },
+        {
+          "age": 53,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 49
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 62
+        },
+        {
+          "age": 34,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 54,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 34
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 30
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 21
+        },
+        {
+          "age": 51,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 30,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 53,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 15
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 52
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 61
+        },
+        {
+          "age": 45,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "age": 28,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 23
+        },
+        {
+          "age": 61,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 40,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 65,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 48
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 42
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 33
+        },
+        {
+          "age": 15,
+          "feeling": "y7eyIcTOPLLTlVi0LA4z"
+        },
+        {
+          "age": 54,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 56,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 31,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "feeling": "y7eyIcTOPLLTlVi0LA4z",
+          "age": 38
+        },
+        {
+          "feeling": "lRxcfy5mp1YvTJX0zhCK",
+          "age": 60
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 31
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 49
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 43
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 18
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 45
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 16
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 44
+        },
+        {
+          "age": 51,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 56,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 28
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 61
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 68
+        },
+        {
+          "age": 47,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 45
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 55
+        }
+      ],
+      "id": "YpZlrPZZGwPNJ3YV15B4"
+    },
+    {
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Ashrei",
+      "responses": [
+        {
+          "age": 51,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 48
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 67
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 40
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 65
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 33
+        },
+        {
+          "age": 62,
+          "feeling": "lA4sWIqVVWerZSPnD6bd"
+        },
+        {
+          "age": 52,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 44,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 58
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 16
+        },
+        {
+          "age": 60,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 50,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 36,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 47,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "age": 48,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 26
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 49
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 63
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 59
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 51
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 67
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 19
+        },
+        {
+          "age": 48,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 67
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 24
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 70
+        },
+        {
+          "age": 22,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 62
+        },
+        {
+          "age": 61,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 53
+        },
+        {
+          "age": 33,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 42
+        },
+        {
+          "age": 23,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 27,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 58
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 44
+        },
+        {
+          "age": 44,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "age": 19,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 39,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "age": 44,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 40
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 43
+        },
+        {
+          "age": 66,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "age": 47,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "age": 47,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 24,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "age": 37,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 27
+        },
+        {
+          "age": 55,
+          "feeling": "lA4sWIqVVWerZSPnD6bd"
+        },
+        {
+          "age": 70,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 46
+        },
+        {
+          "age": 32,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        }
+      ],
+      "id": "dmy4BkfGSUR5G3jWCQtH"
+    },
+    {
+      "responses": [
+        {
+          "age": 22,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 32,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 20,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 22
+        },
+        {
+          "age": 39,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 68,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 50
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 58
+        },
+        {
+          "age": 31,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 49,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 48
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 61
+        },
+        {
+          "age": 59,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 50
+        },
+        {
+          "age": 26,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 24,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 69,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 40,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 16,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 21,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 29
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 67
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 18
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 54
+        },
+        {
+          "age": 22,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 52
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 47
+        },
+        {
+          "age": 40,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 25,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 49
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 66
+        },
+        {
+          "age": 66,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 16
+        },
+        {
+          "age": 15,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 61,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 38,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 60
+        },
+        {
+          "age": 50,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 49
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 58
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 36
+        },
+        {
+          "age": 33,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 57,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 28
+        },
+        {
+          "age": 54,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 37,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 30,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "age": 28,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 25
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 61
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 65
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 56
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 18
+        }
+      ],
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 148",
+      "id": "jwoGvXxEmOTokZFglqGg"
+    },
+    {
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Yishtabach",
+      "responses": [
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 33
+        },
+        {
+          "age": 51,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 53
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 18
+        },
+        {
+          "age": 24,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 50,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 68,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 68
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 20
+        },
+        {
+          "age": 59,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "age": 51,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 42,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 26,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 31,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 51,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 50
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 48
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 17
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 28
+        },
+        {
+          "age": 44,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 55,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 30
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 29
+        },
+        {
+          "age": 60,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 45,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 35,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "age": 28,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 66
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 31
+        },
+        {
+          "age": 58,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 16
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 48
+        },
+        {
+          "age": 38,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 49,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 22
+        },
+        {
+          "age": 24,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        }
+      ],
+      "id": "kpKGt1HWAcJ5exSS1piS"
+    },
+    {
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Blessings of the Shema, Shema",
+      "responses": [
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 58
+        },
+        {
+          "age": 17,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 45,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "age": 40,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "age": 18,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 50,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 34
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 51
+        },
+        {
+          "age": 65,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 24
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 49
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 18
+        },
+        {
+          "age": 60,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 47
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 37
+        },
+        {
+          "age": 23,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "age": 65,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 20
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 46
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 36
+        },
+        {
+          "age": 48,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 36
+        },
+        {
+          "age": 29,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "age": 42,
+          "feeling": "AT3tY2U0VJdUAuHGTd1L"
+        },
+        {
+          "age": 44,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "age": 23,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 66,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "age": 27,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 24
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 16
+        },
+        {
+          "age": 53,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 23,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 17
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 41
+        },
+        {
+          "age": 70,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 44,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "BwdpRyvGEf7tnaD2YMmR",
+          "age": 52
+        },
+        {
+          "age": 63,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 70
+        },
+        {
+          "age": 25,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 39,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 18
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 26
+        },
+        {
+          "age": 47,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 51
+        },
+        {
+          "age": 62,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 28,
+          "feeling": "lA4sWIqVVWerZSPnD6bd"
+        }
+      ],
+      "id": "oSgJb1KVhgXVIs8iTBZz"
+    },
+    {
+      "responses": [
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 42
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 61
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 40
+        },
+        {
+          "age": 18,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 19
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 39
+        },
+        {
+          "age": 69,
+          "feeling": "lA4sWIqVVWerZSPnD6bd"
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 41
+        },
+        {
+          "age": 65,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 24
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 47
+        },
+        {
+          "age": 16,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 45,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 31
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 42
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 50
+        },
+        {
+          "age": 53,
+          "feeling": "y7eyIcTOPLLTlVi0LA4z"
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 43
+        },
+        {
+          "age": 56,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "age": 57,
+          "feeling": "UEYxVi5joU1QDAtLTjzi"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 67
+        },
+        {
+          "age": 21,
+          "feeling": "lA4sWIqVVWerZSPnD6bd"
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 48
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 54
+        },
+        {
+          "age": 30,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 59
+        },
+        {
+          "age": 38,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 27
+        },
+        {
+          "age": 44,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 24,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 37
+        },
+        {
+          "age": 34,
+          "feeling": "rvGkI9nMuaYEfcXMPgUS"
+        },
+        {
+          "age": 33,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 55,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 51
+        },
+        {
+          "age": 38,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 28,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 32
+        },
+        {
+          "age": 30,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 35,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 32,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 62,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 34,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 15
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 62
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 64
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 55
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 34
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 63
+        },
+        {
+          "feeling": "UEYxVi5joU1QDAtLTjzi",
+          "age": 63
+        },
+        {
+          "age": 66,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH",
+          "age": 18
+        },
+        {
+          "age": 21,
+          "feeling": "lA4sWIqVVWerZSPnD6bd"
+        }
+      ],
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei D'Zimra, Psalm 150",
+      "id": "rVTyWrW2H1ZagqUiq742"
+    },
+    {
+      "responses": [
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 45
+        },
+        {
+          "feeling": "JztwMWyG5DfAS9iwmGJh",
+          "age": 54
+        },
+        {
+          "age": 15,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "age": 54,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 23,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 40
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 41
+        },
+        {
+          "age": 67,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "pnGsyQm78L91Mc6nj4Pr",
+          "age": 24
+        },
+        {
+          "age": 38,
+          "feeling": "cNcJwLP0pSU1LqjriP3p"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 53
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 26
+        },
+        {
+          "age": 69,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 41
+        },
+        {
+          "age": 36,
+          "feeling": "dCF6BP9yLKYNWREdU3u6"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 40
+        },
+        {
+          "age": 49,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "dCF6BP9yLKYNWREdU3u6",
+          "age": 58
+        },
+        {
+          "age": 55,
+          "feeling": "wLvQyddS622WfxMXQ7AF"
+        },
+        {
+          "feeling": "dCF6BP9yLKYNWREdU3u6",
+          "age": 59
+        },
+        {
+          "feeling": "dCF6BP9yLKYNWREdU3u6",
+          "age": 34
+        },
+        {
+          "feeling": "dxAWE2xDmAVuWW3Mr6rS",
+          "age": 52
+        },
+        {
+          "feeling": "lRxcfy5mp1YvTJX0zhCK",
+          "age": 48
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 33
+        },
+        {
+          "feeling": "2xn8ViuzRpUutwL8cB1I",
+          "age": 28
+        },
+        {
+          "age": 37,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "feeling": "rvGkI9nMuaYEfcXMPgUS",
+          "age": 43
+        },
+        {
+          "age": 22,
+          "feeling": "pnGsyQm78L91Mc6nj4Pr"
+        },
+        {
+          "age": 69,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "feeling": "wLvQyddS622WfxMXQ7AF",
+          "age": 61
+        },
+        {
+          "age": 68,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "age": 47,
+          "feeling": "2xn8ViuzRpUutwL8cB1I"
+        },
+        {
+          "age": 47,
+          "feeling": "BwdpRyvGEf7tnaD2YMmR"
+        },
+        {
+          "feeling": "cNcJwLP0pSU1LqjriP3p",
+          "age": 25
+        },
+        {
+          "age": 47,
+          "feeling": "JztwMWyG5DfAS9iwmGJh"
+        },
+        {
+          "age": 38,
+          "feeling": "Hc6kwpqVVgxqXDpgsVoH"
+        },
+        {
+          "feeling": "lA4sWIqVVWerZSPnD6bd",
+          "age": 41
+        }
+      ],
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Alenu",
+      "id": "tSrjAdUMShxhYJl45aqB"
+    }
+  ],
+  "feelings": [
+    {
+      "name": "Happy",
+      "color": "#ded80a",
+      "emoji": "😀",
+      "id": "2xn8ViuzRpUutwL8cB1I"
+    },
+    {
+      "emoji": "🤔",
+      "color": "#19a519",
+      "name": "Thoughtful",
+      "id": "AT3tY2U0VJdUAuHGTd1L"
+    },
+    {
+      "color": "#4dccfa",
+      "emoji": "😌",
+      "name": "Peaceful/Calm",
+      "id": "BwdpRyvGEf7tnaD2YMmR"
+    },
+    {
+      "color": "#65ff86",
+      "name": "Connected",
+      "emoji": "🔗",
+      "id": "Hc6kwpqVVgxqXDpgsVoH"
+    },
+    {
+      "color": "#ff4242",
+      "emoji": "🧡",
+      "name": "Loved",
+      "id": "JztwMWyG5DfAS9iwmGJh"
+    },
+    {
+      "color": "#c849de",
+      "emoji": "🤝",
+      "name": "Helped/Supported",
+      "id": "UEYxVi5joU1QDAtLTjzi"
+    },
+    {
+      "emoji": "🙏",
+      "name": "Grateful",
+      "color": "#5c6ce6",
+      "id": "cNcJwLP0pSU1LqjriP3p"
+    },
+    {
+      "emoji": "😠",
+      "name": "Angry/Frustrated",
+      "color": "#ab0707",
+      "id": "dCF6BP9yLKYNWREdU3u6"
+    },
+    {
+      "name": "Tired/Worn Down",
+      "emoji": "🥱",
+      "color": "#9c8e80",
+      "id": "dxAWE2xDmAVuWW3Mr6rS"
+    },
+    {
+      "emoji": "",
+      "color": "#75fa64",
+      "name": "Hopeful",
+      "id": "lA4sWIqVVWerZSPnD6bd"
+    },
+    {
+      "color": "#deb887",
+      "name": "Stressed/Anxious",
+      "emoji": "😰",
+      "id": "lRxcfy5mp1YvTJX0zhCK"
+    },
+    {
+      "name": "Energized",
+      "emoji": "🔋",
+      "color": "#ed143d",
+      "id": "pnGsyQm78L91Mc6nj4Pr"
+    },
+    {
+      "color": "#eb8436",
+      "name": "Confident/Strong",
+      "emoji": "💪",
+      "id": "rvGkI9nMuaYEfcXMPgUS"
+    },
+    {
+      "color": "#40e0d0",
+      "name": "Filled with Awe",
+      "emoji": "🤩",
+      "id": "wLvQyddS622WfxMXQ7AF"
+    },
+    {
+      "name": "Sad/Upset",
+      "emoji": "🙁",
+      "color": "#2e2866",
+      "id": "y7eyIcTOPLLTlVi0LA4z"
+    }
+  ]
+}

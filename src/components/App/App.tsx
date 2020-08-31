@@ -9,10 +9,10 @@ import Rating from '../Rating/Rating';
 import RateForm from '../Rating/RateForm';
 import Data from '../Data/Data';
 
-import './app.module.css';
+import style from './app.module.css';
 
 const App = () => (
-  <div>
+  <div className={style['app']}>
     <Header />
 
     <Switch>

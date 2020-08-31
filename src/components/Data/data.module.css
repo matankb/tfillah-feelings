@@ -37,5 +37,9 @@
 }
 
 .prayer-table {
-  margin-bottom: 15px;
+  margin-bottom: 15px !important;
+}
+
+.prayer-table td:last-child {
+  vertical-align: top;
 }

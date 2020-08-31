@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
-import { Feeling, Prayer } from '../../types/types';
-import { getAllPrayers, getAllFeelings } from '../../api/firebase';
+import { Feeling, Prayer } from 'src/types/types';
+import { getAllPrayers, getAllFeelings } from 'src/api/firebase';
 
-import style from './data.module.css'
 import Loading from '../Loading/Loading';
 import PrayerTable from './PrayerTable';
 import FeelingTable from './FeelingTable';
 
+import style from './data.module.css'
 const Data = () => {
 
   const [feelings, setFeelings] = useState<Feeling[]>();
@@ -31,7 +31,6 @@ const Data = () => {
       </div>
 
       <PrayerTable prayers={prayers} feelings={feelings} />
-      
       <FeelingTable feelings={feelings} />
 
     </div>
