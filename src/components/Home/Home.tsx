@@ -16,12 +16,6 @@ const Home = () => (
         <SectionButton name="View Data" icon="fas fa-database" color="#4ed88b" linkTo="/data" />
       </div>
 
-      <div className={style['explanation']}>
-         This is a snapshot of the app from August 31, 2020 (for the "Powered by Sefaria" contest). 
-        For the most updated version, please click 
-        <a href="https://tfeeling.netlify.com" target="_blank" rel="noopener noreferrer"> here.</a>
-      </div>
-
     </div>
 
     <footer>
