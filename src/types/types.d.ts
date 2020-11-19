@@ -17,6 +17,7 @@ export interface PrayerData {
 
 export interface Response {
   age: number;
+  timestamp: number;
   feeling: string; // id of feeling
 }
 

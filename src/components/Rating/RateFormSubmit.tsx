@@ -21,10 +21,12 @@ async function submitResponses(responses: FormResponses, age: number) {
     }
 
     const existingPrayer = prayers.find(prayer => prayer.ref === prayerRef);
+    const timestamp = Date.now();
     const newResponses = feelings.map(feeling => {
       return {
+        timestamp,
         age,
-        feeling: feeling.id
+        feeling: feeling.id,
       }
     })
 
