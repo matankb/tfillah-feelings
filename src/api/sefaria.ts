@@ -11,7 +11,7 @@ function parseSection(ref: string) {
 }
 
 function formatPrayerText(lines?: string[]) {
-  return lines?.filter(Boolean).join(' ') || '';
+  return lines?.filter(Boolean).join('<br />') || '';
 }
 
 export async function getPrayerData(ref: string): Promise<PrayerData> {

@@ -43,6 +43,22 @@
   font-size: 18px;
 }
 
+.english .footnote {
+  color: var(--border-gray);
+}
+
+.english .footnote-hidden {
+  display: none;
+}
+
+.english .footnote-number {
+  text-decoration: underline;
+  cursor: pointer;
+  vertical-align: top;
+  margin-left: 3px;
+  font-size: 11px;
+}
+
 .prayer-title {
   font-weight: bold;
   margin-bottom: 10px;
