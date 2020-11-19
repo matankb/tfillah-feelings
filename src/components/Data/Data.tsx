@@ -27,7 +27,7 @@ const Data = () => {
       <h1>Raw Data</h1>
       
       <div className={style['explanation']}>
-        Note: This raw data will not be available in the final app.
+        For debug use.
       </div>
 
       <PrayerTable prayers={prayers} feelings={feelings} />
