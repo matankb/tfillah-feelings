@@ -33,6 +33,7 @@ const RateForm = () => {
   const [sheet, setSheet] = useState<SourceSheet>();
   const [current, setCurrent] = useState(0); // current index
   const [responses, setResponses] = useState<FormResponses>({});
+  const [finished, setFinished] = useState(false);
 
   useEffect(() => {
     getAllFeelings().then(setFeelings);
@@ -70,7 +71,7 @@ const RateForm = () => {
     })
   }
 
-  const showSubmit = current === refs.length;
+  const showSubmit = finished || current === refs.length;
   const selectedFeelings = getSelectedFeelings();
   const name = template ? template.name : sheet?.title || 'Prayers';
 
@@ -106,15 +107,15 @@ const RateForm = () => {
         <div className={style['rate-form-controls']}>
           <PrayerNavigation
             handleNext={() => setCurrent(current + 1)}
-            handleBack={() => setCurrent(current - 1)}
+            handleBack={() => finished ? setFinished(false) : setCurrent(current - 1)}
             enableBack={current > 0}
-            enableNext={current < refs.length}
+            enableNext={!finished && current < refs.length}
           />
           {
             !showSubmit && (
               <div
                 className={style['finish-button']}
-                onClick={() => setCurrent(refs.length)}
+                onClick={() => setFinished(true)}
               >
                 Finish
               </div>
