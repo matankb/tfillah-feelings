@@ -20,6 +20,7 @@ const PrayerTable = ({ prayers, feelings }: PrayerTableProps) => (
       <tr>
         <th>Prayer Name</th>
         <th>Feelings</th>
+        <th>ID</th>
       </tr>
     </thead>
     <tbody>
@@ -37,6 +38,7 @@ const PrayerTable = ({ prayers, feelings }: PrayerTableProps) => (
                 }
               </ul>
             </td>
+            <td>{prayer.id}</td>
           </tr>
         ))
       }

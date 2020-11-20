@@ -42,10 +42,10 @@
   /* border-bottom: 2px solid white; */
 }
 
-.explanation div:first-child {
+/* .explanation div:first-child {
   /* border-bottom: 1px solid white;
   padding-bottom: 8px; */
-}
+/* } */ 
 
 .background {
   background: linear-gradient(180deg, var(--primary-color), transparent);

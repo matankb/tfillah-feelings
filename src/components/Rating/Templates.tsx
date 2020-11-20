@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import style from './rating.module.css'
 import { Template } from 'src/types/types';
 import { Link } from 'react-router-dom';
-import SectionButton from '../SectionButton/SectionButton';
+// import SectionButton from '../SectionButton/SectionButton';
 
 interface TemplatesProps {
   templates: Template[];
@@ -13,7 +13,7 @@ const recommendedTemplateId = '1Wv77LlYlJbvYnlcdcHi';
 
 const Templates = (props: TemplatesProps) => {
 
-  const [showMore, setShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
 
   const visibleTemplates = props.templates.filter(template => template.id !== recommendedTemplateId);
 
