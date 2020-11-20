@@ -26,7 +26,7 @@ const Templates = (props: TemplatesProps) => {
           key={recommendedTemplateId}
         >
           <i className="fa fa-star" />
-          Core Prayers
+          Recommended Prayers
           <div className={style['template-recommended-explanation']}>
             Don't know where to start? Click here.
           </div>
@@ -43,12 +43,12 @@ const Templates = (props: TemplatesProps) => {
             </Link>
           ))
         }
-        <button
+        {/* <button
           className={style['template-list-show-more']}
           onClick={() => setShowMore(!showMore)}
         >
           See {showMore ? 'Less' : 'More'}
-        </button>
+        </button> */}
       </div>
     </div>
   )

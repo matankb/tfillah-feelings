@@ -29,7 +29,6 @@ const Rating = () => {
         <div className={style['explanation']}>
           Contribute to T'feeling by telling us how you connect t'fillot and emotions.
           Your responses will help make T'feeling better for everybody!
-          Either rate prayers from , or create a Sefaria source sheet to rate any prayers you chose.
         </div>
       </div>
       
