@@ -44,6 +44,14 @@
   margin-top: 10px;
 }
 
+.source-sheet .source-sheet-input-wrap {
+  width: calc(100% + 40px);
+}
+
+.source-sheet h3 {
+  margin-left: 20px;
+}
+
 .source-sheet button {
   padding: 10px 25px;
   float: right;
@@ -62,6 +70,19 @@
 .source-sheet button.enabled {
   opacity: 1;
   pointer-events: all;
+}
+
+.source-sheet .explanation {
+  width: 100%;
+  max-width: 367.94px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  font-size: 15px;
+  border: none;
+}
+
+.source-sheet .explanation a {
+  color: var(--link-color);
 }
 
 .templates-list {
@@ -104,6 +125,11 @@
   cursor: pointer;
 }
 
+.template-recommended-explanation {
+  color: gray;
+  font-size: 15px;
+}
+
 @media (max-width: 850px) {
   .rating-home {
     flex-direction: column;
@@ -117,6 +143,15 @@
     padding-top: var(--padding);
     margin-top: var(--margin);
     margin-bottom: 10px;
+  }
+  .source-sheet h3 {
+    margin-left: 0;
+  }
+  .source-sheet .explanation {
+    max-width: calc(100% - 40px) !important;
+  }
+  .source-sheet-input-wrap {
+    max-width: 100%;
   }
 }
 
@@ -197,6 +232,13 @@
   padding-bottom: 20px;
 }
 
+.rate-form-main h3 {
+  color: var(--header-color);
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
 /* RATE FORM SUBMIT */
 
 .form-submit {
@@ -249,4 +291,20 @@
 
 .form-submit i {
   margin-right: 10px;
+}
+
+.explanation-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.explanation {
+  background: rgb(233, 233, 233);
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
 }

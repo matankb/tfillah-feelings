@@ -10,6 +10,7 @@
   font-size: 46px;
   margin-bottom: 0;
   color: var(--header-color);
+  color: white;
 }
 
 .section-buttons {
@@ -19,13 +20,37 @@
   padding: 30px;
 }
 
+.section-buttons a {
+  border: 1px solid lightgray !important;
+  border-radius: 10px;
+}
+
 .explanation {
   background: rgb(233, 233, 233);
   padding: 10px 20px;
+  /* border: 1px solid black; */
+  border: 2px solid white;
   border-radius: 3px;
-  max-width: 60%;
+  max-width: 50%;
   margin: 0 auto;
+  text-align: left;
+  margin-top: 30px;
   display: inline-block;
+  background: none;
+  color: white;
+  /* border: none; */
+  /* border-bottom: 2px solid white; */
+}
+
+.explanation div:first-child {
+  /* border-bottom: 1px solid white;
+  padding-bottom: 8px; */
+}
+
+.background {
+  background: linear-gradient(180deg, var(--primary-color), transparent);
+  height: 100%;
+  /* height: 400px; */
 }
 
 footer {

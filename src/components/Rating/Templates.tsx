@@ -9,32 +9,28 @@ interface TemplatesProps {
   templates: Template[];
 };
 
-const primaryTemplates = {
-  shacharit: 'SMCSrvsJ6EbTyP5kF0Bu',
-  recommended: '1Wv77LlYlJbvYnlcdcHi',
-}
-
-function filterPrimaryTemplates(allTemplates: Template[]) {
-  return allTemplates.filter(template => {
-    return !Object.values(primaryTemplates).includes(template.id)
-  });
-}
+const recommendedTemplateId = '1Wv77LlYlJbvYnlcdcHi';
 
 const Templates = (props: TemplatesProps) => {
 
   const [showMore, setShowMore] = useState(false);
 
-  const visibleTemplates = showMore ?
-    filterPrimaryTemplates(props.templates) :
-    filterPrimaryTemplates(props.templates).slice(0, 2);
+  const visibleTemplates = props.templates.filter(template => template.id !== recommendedTemplateId);
 
   return (
     <div className={style['templates']}>
-      <div className={style['templates-primary']}>
-        <SectionButton icon="fa fa-sun" color="#f57e42" linkTo={`/rate/form?template=${primaryTemplates.shacharit}`} name="Shacharit" />
-        <SectionButton icon="fa fa-star" color="#FFDF00	" linkTo={`/rate/form?template=${primaryTemplates.recommended}`} name="Recommended" />
-      </div>
       <div className={style['templates-list']}>
+        <Link
+          to={`/rate/form?template=${recommendedTemplateId}`}
+          className={style['template']}
+          key={recommendedTemplateId}
+        >
+          <i className="fa fa-star" />
+          Core Prayers
+          <div className={style['template-recommended-explanation']}>
+            Don't know where to start? Click here.
+          </div>
+        </Link>
         {
           visibleTemplates.map(template => (
             <Link

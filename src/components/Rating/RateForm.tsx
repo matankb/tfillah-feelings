@@ -95,6 +95,7 @@ const RateForm = () => {
                 prayerRef={refs[current]}
                 color="gray"
               />
+              <h3>Which emotions do you connect with this prayer?</h3>
               <FeelingButtons
                 feelings={feelings}
                 selectedFeelings={selectedFeelings}

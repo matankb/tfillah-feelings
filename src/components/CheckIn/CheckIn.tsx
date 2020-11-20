@@ -97,6 +97,10 @@ class CheckIn extends React.Component<{}, CheckInState> {
           {stage === CheckInStage.PRAYERS && 'Here are a few t\'fillot that are recommended for you:'}
         </h1>
 
+        <h3 className={style['subtitle']}>
+          {stage === CheckInStage.CURRENT_FEELINGS && 'Take a moment to reflect on your current emotions'}
+        </h3>
+
         {
           (stage === CheckInStage.CURRENT_FEELINGS || stage === CheckInStage.WANT_FEELINGS) &&
           <div className={style['feelings-buttons-wrap']}>
@@ -111,11 +115,20 @@ class CheckIn extends React.Component<{}, CheckInState> {
         {
           (stage === CheckInStage.PRAYERS) &&
           (prayers
-            ? <CheckInPrayers 
-                prayers={prayers}
-                wantFeelings={selectedWantFeelings}
-              />
+            ? <CheckInPrayers
+              prayers={prayers}
+              wantFeelings={selectedWantFeelings}
+            />
             : <Loading />)
+        }
+
+{
+          (stage === CheckInStage.CURRENT_FEELINGS || stage === CheckInStage.WANT_FEELINGS) &&
+          <div className={style['explanation-wrap']}>
+            <h4 className={style['explanation']}>
+              Select one or more
+            </h4>
+          </div>
         }
 
         <PrayerNavigation

@@ -30,7 +30,7 @@ const SourceSheetInput = () => {
 
       <div className={style['source-sheet-input-wrap']}>
         <input
-          placeholder="Sefaria URL"
+          placeholder="Sefaria Source Sheet URL"
           value={sheet}
           onChange={e => setSheet(e.target.value)}
           onKeyDown={handleInputKeydown}
@@ -41,6 +41,14 @@ const SourceSheetInput = () => {
             <i className="fa fa-arrow-right" />
           </button>
         </Link>
+      </div>
+
+      <div className={style['explanation-wrap']}>
+        <div className={style['explanation']}>
+          Create a <a href="https://www.sefaria.org/sheets" target="_blank" rel="noopener noreferrer">source sheet</a>
+          &nbsp;on Sefaria with any prayers you chose.
+          Then enter the sheet's URL above to rate those prayers.
+        </div>
       </div>
 
     </div>

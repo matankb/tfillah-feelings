@@ -25,9 +25,18 @@ const Rating = () => {
     <div className={style['rating-wrap']}>
       <h1>Rate Prayers</h1>
 
+      <div className={style['explanation-wrap']}>
+        <div className={style['explanation']}>
+          Contribute to T'feeling by telling us how you connect t'fillot and emotions.
+          Your responses will help make T'feeling better for everybody!
+          Either rate prayers from , or create a Sefaria source sheet to rate any prayers you chose.
+        </div>
+      </div>
+      
+
       <div className={style['rating-home']}>
         <div>
-          <h3>Chose where to start</h3>
+          <h3>Chose prayers to rate</h3>
           <Templates templates={templates} />
         </div>
         <SourceSheetInput />
